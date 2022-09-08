@@ -6,14 +6,14 @@
 
 body{
     font-family: "Open Sans";
-    color: white;
+    color: black;
 }
 
 section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url(12.jpg);
+    background: url(13.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -64,7 +64,7 @@ h1{
 }
 .link a{
     text-decoration: none;
-    color: white;
+    color: black;
     opacity: .6;
     transition: opacity .3s ease;
 }
