@@ -6,7 +6,7 @@
 
 body{
     font-family: "Open Sans";
-    color: black;
+    color: white;
 }
 
 section{
@@ -64,7 +64,7 @@ h1{
 }
 .link a{
     text-decoration: none;
-    color: black;
+    color: white;
     opacity: .6;
     transition: opacity .3s ease;
 }
