@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokyo Ghoul</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 20px;
+            padding-right: 10px 10px 25px 10px;
+            height: auto;
+            background-image: url(img/to.jpg);
+            justify-content: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .row{
+            padding: 50px;
+        }
+
+        .col1{           
+            width:25%;
+            padding: 10px 10px 25px 10px;
+            border: 2px solid gray;
+            background-color: white;
+            box-shadow: 10px 10px 5px gray;
+            float: left;
+            -ms-transform: rotate(7deg);
+            -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
+        }
+
+        .col1 span {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .col1:hover {
+            transform: rotate(0deg);
+        }
+
+        .col2{
+            width:25%;
+            padding: 10px 10px 25px 10px;
+            border: 2px solid gray;
+            background-color: white;
+            box-shadow: 10px 10px 5px gray;
+            float: left;
+            -ms-transform: rotate(-8deg);
+            -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+            opacity: 0.9;
+        }
+
+        .col2 span {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .col2:hover {
+            transform: rotate(0deg);
+        }
+
+        .col3{
+            width:25%;
+            padding: 10px 10px 25px 10px;
+            border: 2px solid gray;
+            background-color: white;
+            box-shadow: 10px 10px 5px gray;
+            float: left;
+            -ms-transform: rotate(-8deg);
+            -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+            opacity: 0.9;
+        }
+
+        .col3 span {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+
+        .col3:hover {
+            transform: rotate(0deg);
+        }
+
+        .col4{
+            width:25%;
+            padding: 10px 10px 25px 10px;
+            border: 2px solid gray;
+            background-color: white;
+            box-shadow: 10px 10px 5px gray;
+            float: left;
+            -ms-transform: rotate(-8deg);
+            -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+            opacity: 0.9;
+        }
+
+        .col4 span{
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .col4:hover{
+            transform: rotate(0deg);
+        }
+
+        .row:after{
+            content:" ";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width:600px){
+            .col1{
+                width: 100%;
+            }
+            .col2{
+                width: 100%;
+            }
+            .col3{
+                width: 100%;
+            }
+            .col4{
+                width: 100%;
+            }
+            
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="row">
+
+        <div class="col1">
+            <img src="img/k.webp" width="100%">
+            <span>Kaneki </span>
+            <p class="desc1">Ken Kaneki is the main protagonist of Tokyo Ghoul.</p>
+
+        </div>
+
+        <div class="col2">
+            <img src="img/t.jpg" width="100%">
+            <span>Touka </span>
+            <p class="desc2">Touka Kirishima is a ghoul who is an ex-waitress at Anteiku.</p>
+
+        </div>
+
+        <div class="col3">
+            <img src="img/u.webp" width="100%">
+            <span>Uta </span>
+            <p class="desc3">Uta is a ghoul and an old friend of Renji Yomo and Itori.</p>
+
+        </div>
+
+        <div class="col4">
+            <img src="img/r.jpg" width="100%">
+            <span>Rize </span>
+            <p class="desc4">Rize Kamishiro was a ghoul and the foster daughter of Matasaka 
+                Kamishiro.</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>
